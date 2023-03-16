@@ -4,7 +4,7 @@ const kelvin = 293;
 let celsius = kelvin - 273;
 //To convert celsius in fahrenheit we multiply the celsius temperature for (9/5) and add 32
 let fahrenheit = celsius * (9 / 5) + 32;
-//Using the Math method we round down and get the value without de decimals
+//Using the Math method we round down and get the value without decimals
 fahrenheit = Math.floor(fahrenheit);
 console.log(`The temperature is ${fahrenheit} degrees Fahrenheit.`);
 console.log(`The temperature is ${celsius} degrees Celsius.`);
